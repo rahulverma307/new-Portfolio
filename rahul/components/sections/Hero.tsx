@@ -1,5 +1,7 @@
 "use client";
 
+import ThemeToggle from "@/components/ui/toggle-dark";
+
 import Image from "next/image";
 import { MapPin, Eye, FileText } from "lucide-react";
 
@@ -48,16 +50,15 @@ export default function Hero() {
 
               <div className="mt-3 flex items-center gap-2 text-sm text-zinc-500">
                 <MapPin size={16} />
-                <span>Agra, India</span>
+                <span>Delhi NCR, India</span>
               </div>
             </div>
           </div>
 
           {/* Theme Button */}
+          {/* <ThemeToggle /> */}
 
-          <button className="h-11 rounded-full border border-zinc-700 px-5 text-zinc-300 transition hover:border-white hover:text-white">
-            🌙
-          </button>
+          
         </div>
 
         {/* Description */}
