@@ -6,11 +6,17 @@ import Image from "next/image";
 import { MapPin, Eye, FileText } from "lucide-react";
 
 const skills = [
+  "HTML",
+  "CSS",
+  "JavaScript",
   "Next.js",
-  "React",
+  "ReactJs",
+  "NodeJS",
+  "ExpressJS",
+  "MongoDB",
   "TypeScript",
   "Tailwind CSS",
-  "UI/UX",
+  
 ];
 
 export default function Hero() {
@@ -45,7 +51,7 @@ export default function Hero() {
               </div>
 
               <h2 className="mt-2 text-lg font-medium text-zinc-300">
-                Frontend Developer
+                Full Stack Developer
               </h2>
 
               <div className="mt-3 flex items-center gap-2 text-sm text-zinc-500">
@@ -64,9 +70,9 @@ export default function Hero() {
         {/* Description */}
 
         <p className="mt-8 max-w-3xl text-base leading-8 text-zinc-400">
-          I'm a Frontend Developer passionate about creating modern,
+          I'm a Full Stack Developer passionate about creating modern,
           responsive and user-friendly web applications. I enjoy building
-          scalable interfaces using React, Next.js and TypeScript while
+          scalable interfaces using React, Next.js, Node.js, Express.js, MongoDB and TypeScript while
           focusing on clean design, accessibility and performance.
         </p>
 

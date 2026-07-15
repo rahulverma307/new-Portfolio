@@ -7,10 +7,10 @@ import Link from "next/link";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
   { name: "Projects", href: "#projects" },
   { name: "Experience", href: "#experience" },
+  { name: "About", href: "#about" },
   { name: "Contact", href: "#contact" },
 ];
 
@@ -26,7 +26,7 @@ export default function Navbar() {
             href="/"
             className="text-xl font-semibold tracking-tight text-white"
           >
-            Rahul<span className="text-zinc-500">.</span>
+            Rahul Verma<span className="text-zinc-500">.</span>
           </Link>
 
           {/* Desktop Navigation */}
