@@ -133,7 +133,7 @@ export default function Hero() {
 
           <div className="flex items-center gap-2 text-sm text-zinc-500">
             <Eye size={18} />
-            <span>Visitor Count: 32</span>
+            <span>Visitor Count: 33</span>
           </div>
         </div>
       </div>
