@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Rahul Verma | Frontend Developer",
+  title: "Rahul Verma | Fullstack Developer",
   description:
-    "Frontend Developer specializing in React, Next.js, TypeScript and modern web experiences.",
+    "Fullstack Developer specializing in React, Next.js, TypeScript and modern web experiences.",
 };
 
 export default function RootLayout({
