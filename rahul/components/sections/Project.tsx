@@ -23,7 +23,7 @@ const projects = [
     live: "#",
   },
   {
-    title: "Personal Portfolio",
+    title: "dom0",
     image: "/projects/portfolio.png",
     description:
       "A clean developer portfolio inspired by Vercel and Linear using Next.js and Tailwind CSS.",
