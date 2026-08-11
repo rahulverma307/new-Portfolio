@@ -6,7 +6,7 @@ import { ArrowUpRight} from "lucide-react";
 const projects = [
   {
     title: "Domgpt",
-    image: "./public/image/domgpt.png",
+    image: "/image/domgpt.png",
     description:
       "A ChatGPT-inspired AI chatbot featuring intelligent conversations, content generation, secure authentication, and chat history management.",
     tech: ["Next.js", "TypeScript", "Tailwind", "Prisma","Openai"],
