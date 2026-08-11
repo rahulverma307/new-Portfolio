@@ -5,30 +5,12 @@ import { ArrowUpRight} from "lucide-react";
 
 const projects = [
   {
-    title: "AI Interview Platform",
+    title: "Domgpt",
     image: "/projects/interview.png",
     description:
-      "An AI-powered interview preparation platform with authentication, personalized questions, AI feedback, and dashboard.",
-    tech: ["Next.js", "TypeScript", "Tailwind", "Prisma"],
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "Inventory Management",
-    image: "/projects/inventory.png",
-    description:
-      "A modern inventory management dashboard with analytics, authentication and product management.",
-    tech: ["Next.js", "Prisma", "Neon", "Tailwind"],
-    github: "#",
-    live: "#",
-  },
-  {
-    title: "dom0",
-    image: "/projects/portfolio.png",
-    description:
-      "A clean developer portfolio inspired by Vercel and Linear using Next.js and Tailwind CSS.",
-    tech: ["Next.js", "Tailwind", "TypeScript"],
-    github: "#",
+      "A ChatGPT-inspired AI chatbot featuring intelligent conversations, content generation, secure authentication, and chat history management.",
+    tech: ["Next.js", "TypeScript", "Tailwind", "Prisma","Openai"],
+    github: "https://github.com/rahulverma307/domgpt",
     live: "#",
   },
 ];
