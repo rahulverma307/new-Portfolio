@@ -2,13 +2,13 @@
 
 import Image from "next/image";
 import { ArrowUpRight} from "lucide-react";
-import domgptImage from "../../public/image/domgpt.png";;
+
 
 
 const projects = [
   {
     title: "Domgpt",
-    image: domgptImage,
+    image: "../../public/image/domgpt.png",
     description:
       "A ChatGPT-inspired AI chatbot featuring intelligent conversations, content generation, secure authentication, and chat history management.",
     tech: ["Next.js", "TypeScript", "Tailwind", "Prisma","Openai","Clerk Authentication"],
