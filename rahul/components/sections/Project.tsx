@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { ArrowUpRight} from "lucide-react";
-import domgptImage from "@/public/image/domgpt.png";
+import domgptImage from "../../public/image/domgpt.png";;
 
 
 const projects = [
